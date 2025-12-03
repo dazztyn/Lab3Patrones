@@ -16,7 +16,7 @@ public class PricingFilterVerticle extends AbstractVerticle
 
             //lista de pedidos
             long subtotal = 0;
-            JsonArray jsonArray = json.getJsonArray("orders");
+            JsonArray jsonArray = json.getJsonArray("items");
 
             for (Object obj : jsonArray)
             {
