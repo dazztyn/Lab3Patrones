@@ -14,6 +14,7 @@ public class PricingFilterVerticle extends AbstractVerticle
 
             JsonObject json = (JsonObject) msg.body();
 
+            //lista de pedidos
             long subtotal = 0;
             JsonArray jsonArray = json.getJsonArray("orders");
 
